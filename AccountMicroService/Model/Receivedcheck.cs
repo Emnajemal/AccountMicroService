@@ -1,0 +1,151 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace AccountMicroService.Model
+{
+    public partial class Receivedcheck
+    {
+        public long Pk { get; set; }
+        public DateTime? Cdate { get; set; }
+        public string? Cuser { get; set; }
+        public string? Uuser { get; set; }
+        public string? Accountcontractcode { get; set; }
+        public long? Accountcontractpk { get; set; }
+        public string? Accountnature { get; set; }
+        public DateTime? Anrdate { get; set; }
+        public bool? Autoprocess { get; set; }
+        public string? Bankcode { get; set; }
+        public long? Bankpk { get; set; }
+        public string? Benefsituation { get; set; }
+        public string? Beneficiaryaccnature { get; set; }
+        public string? Beneficiaryname { get; set; }
+        public string? Beneficiaryrib { get; set; }
+        public string? Branchdestcode { get; set; }
+        public string? Branchremcode { get; set; }
+        public bool? Cannegoce { get; set; }
+        public decimal? Certificationamount { get; set; }
+        public long? Checkimagepk { get; set; }
+        public long? Checkimageversopk { get; set; }
+        public string? Chequecode { get; set; }
+        public long? Chequepk { get; set; }
+        public long? Clearingpk { get; set; }
+        public string? Codelabel { get; set; }
+        public string Currencycode { get; set; } = null!;
+        public long Currencypk { get; set; }
+        public DateTime? Date90eme { get; set; }
+        public DateTime? Dealingroomdate { get; set; }
+        public decimal? Dealingroomgrossamount { get; set; }
+        public decimal? Dealingroomnetamount { get; set; }
+        public decimal? Dealingroomrate { get; set; }
+        public string? Dealingroomreference { get; set; }
+        public decimal? Dealingroomtotalcommission { get; set; }
+        public decimal? Dealingroomtotalvat { get; set; }
+        public string? Depositname { get; set; }
+        public string? Devposacc { get; set; }
+        public bool Draft { get; set; }
+        public string Draweerib { get; set; } = null!;
+        public string? Eventtypecode { get; set; }
+        public long? Eventtypepk { get; set; }
+        public string? Exempttype { get; set; }
+        public string? Extreference { get; set; }
+        public bool? Force { get; set; }
+        public string? Freezone { get; set; }
+        public decimal? Fxgrossamount { get; set; }
+        public decimal? Fxnetamount { get; set; }
+        public decimal? Fxrate { get; set; }
+        public decimal? Fxtotalcommission { get; set; }
+        public decimal? Fxtotalvat { get; set; }
+        public bool? Generatecnp { get; set; }
+        public bool? Generatepapillion { get; set; }
+        public decimal? Grossamount { get; set; }
+        public string? Huissiercode { get; set; }
+        public long? Huissierpk { get; set; }
+        public string? Iddocument { get; set; }
+        public string? Internalexternal { get; set; }
+        public bool Iscertified { get; set; }
+        public bool? Isdeal { get; set; }
+        public bool? Isreglemente { get; set; }
+        public DateTime Issuedate { get; set; }
+        public bool Issuedinlocal { get; set; }
+        public string? Mandatorycodes { get; set; }
+        public bool Manualclearing { get; set; }
+        public decimal? Migreservedamount { get; set; }
+        public string? Natremettant { get; set; }
+        public string? Natremettantvrai { get; set; }
+        public string? Naturecomptebenef { get; set; }
+        public bool? Negociateexchange { get; set; }
+        public decimal? Netamount { get; set; }
+        public string? Nrem { get; set; }
+        public string? Ntrans { get; set; }
+        public string? Numtranche { get; set; }
+        public string Number { get; set; } = null!;
+        public string Operationtypecode { get; set; } = null!;
+        public long Operationtypepk { get; set; }
+        public string? Orgnisationunithuissiercode { get; set; }
+        public long? Orgnisationunithuissierpk { get; set; }
+        public string? Particiantremcode { get; set; }
+        public DateTime? Paymentdate { get; set; }
+        public bool? Paymentpartiel { get; set; }
+        public string? Paymentdocnum { get; set; }
+        public DateTime? Presdate { get; set; }
+        public decimal? Provisionamount { get; set; }
+        public DateTime? Provisiondate { get; set; }
+        public string Receivedchecklcstatus { get; set; } = null!;
+        public DateTime? Receivedvaluedate { get; set; }
+        public string? Reference { get; set; }
+        public string? Referencerio { get; set; }
+        public string? Refpubkey { get; set; }
+        public decimal? Regulamount { get; set; }
+        public decimal? Regulinterestamount { get; set; }
+        public string? Rejectcodereasons { get; set; }
+        public DateTime? Rejectdate { get; set; }
+        public string? Relatedservicecode { get; set; }
+        public long? Relatedservicepk { get; set; }
+        public decimal? Requestedamount { get; set; }
+        public string? Reversalreason { get; set; }
+        public string? Signature { get; set; }
+        public long? Signatureimagepk { get; set; }
+        public DateTime? Spotdate { get; set; }
+        public decimal? Totalcommission { get; set; }
+        public decimal? Totalregulamount { get; set; }
+        public decimal? Totalstamp { get; set; }
+        public decimal? Totaltaf { get; set; }
+        public decimal? Totalvat { get; set; }
+        public DateTime? Tradedate { get; set; }
+        public DateTime? Transitiondate { get; set; }
+        public string? Unitcode { get; set; }
+        public DateTime? Udate { get; set; }
+        public string? Validationprocessname { get; set; }
+        public string? Validationstepname { get; set; }
+        public int? Versionnum { get; set; }
+        public bool? Vfcheck { get; set; }
+        public bool? Withoutimage { get; set; }
+        public DateTime? Cnpdate { get; set; }
+        public string? Creationlocation { get; set; }
+        public string? Numcnp { get; set; }
+        public DateTime? Preavisdate { get; set; }
+        public string? Clearingnatremettant { get; set; }
+        public string? Affecteduser { get; set; }
+        public DateTime? Affectiondate { get; set; }
+        public DateTime? Validationdate { get; set; }
+        public string? Validationuser { get; set; }
+        public bool? Provisionrejectioncancelled { get; set; }
+        public bool? Isforeignbank { get; set; }
+        public bool? Restournecommission { get; set; }
+        public bool? Immediatereject { get; set; }
+        public bool? Generatepreavis { get; set; }
+        public bool? Hasexploit { get; set; }
+        public DateTime? Oldfinpremierdelai { get; set; }
+        public DateTime? Oldanrdate { get; set; }
+        public DateTime? Olddate90eme { get; set; }
+        public DateTime? Olddatecnp { get; set; }
+        public DateTime? Olddatepreavis { get; set; }
+        public string? Oldnumcnp { get; set; }
+        public string? Oldnumppreavis { get; set; }
+        public bool? Cnpeffacer { get; set; }
+        public bool? Preaviseffacer { get; set; }
+        public long? Oldcleringpk { get; set; }
+        public bool? Isproccureurdoc { get; set; }
+        public bool? Proccureurdocgenerated { get; set; }
+    }
+}
